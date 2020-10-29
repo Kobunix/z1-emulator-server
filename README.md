@@ -3,6 +3,7 @@
 Trying to create Emulator for give players permissions to create PRIVATE SERVER.
 
 ## Thanks
+- Kentin
 - To community for effords.
 - Thank to UTIL_TRACELINE for his involvement in the project, the project would not be in this state today without him.
 - Thank to LcplReaper for his interest in the project and the management of the community around the project.
