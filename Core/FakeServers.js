@@ -1,5 +1,7 @@
 const http = require('http');
 
+
+// @DON't WORK : UPDATE TO SOE SERVER TYPE NOT WEB
 function CreateServer(fakename,ip,portx) 
 {
 	const hostname = ip;
