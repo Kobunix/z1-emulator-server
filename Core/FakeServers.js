@@ -1,10 +1,9 @@
 const http = require('http');
+var colors = require('colors/safe');
 
-
-// @DON't WORK : UPDATE TO SOE SERVER TYPE NOT WEB
 function CreateServer(fakename,ip,portx) 
 {
-	const hostname = ip;
+	/*const hostname = ip;
 	const port = portx;
 
 	const server = http.createServer((req, res) => {
@@ -14,10 +13,9 @@ function CreateServer(fakename,ip,portx)
 	});
 
 	server.listen(port, hostname, () => {
-	  console.log("[ ! ] Started FakeServer : "+ fakename);
-	});
-} 
 
-
-CreateServer("LoginServer","127.0.0.1", "20042");
-CreateServer("GateWayServer","127.0.0.1", "20043");
+		// ReturnConsoleCommand("Test","test");
+	  	// console.log(colors.green('[ ! ] ')+ colors.white("Started FakeServer :" + fakename));
+	});*/
+	return false;
+}
