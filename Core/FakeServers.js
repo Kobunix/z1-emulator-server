@@ -1,21 +1,26 @@
 const http = require('http');
 var colors = require('colors/safe');
+var func = require('./Functions');
 
-function CreateServer(fakename,ip,portx) 
+module.exports.CreateServer = CreateServer;
+
+function CreateServer(s,fakename,ip,portx) 
 {
-	/*const hostname = ip;
-	const port = portx;
+	if(s == "on")
+	{
+		const hostname = ip;
+		const port = portx;
 
-	const server = http.createServer((req, res) => {
-	  res.statusCode = 200;
-	  // res.setHeader('Content-Type', 'text/plain');
-	  // res.end('Hello World');
-	});
+		const server = http.createServer((req, res) => {
+		  res.statusCode = 200;
+		  // res.setHeader('Content-Type', 'text/plain');
+		  // res.end('Hello World');
+		});
 
-	server.listen(port, hostname, () => {
+		server.listen(port, hostname, () => {
 
-		// ReturnConsoleCommand("Test","test");
-	  	// console.log(colors.green('[ ! ] ')+ colors.white("Started FakeServer :" + fakename));
-	});*/
-	return false;
+			func.ReturnConsoleCommand("STARTING-TCP-SERVER","Started server : " + fakename +" ["+hostname+":"+port+"]");
+		  	// console.log(colors.green('[ ! ] ')+ colors.white("Started FakeServer :" + fakename));
+		});
+	}	
 }

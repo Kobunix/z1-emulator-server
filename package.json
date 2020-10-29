@@ -1,7 +1,11 @@
 {
   "dependencies": {
     "colors": "^1.4.0",
+    "debug": "^4.2.0",
+    "fs": "^0.0.1-security",
+    "hash-jenkins": "^1.0.1",
     "http": "^0.0.1-security",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "mongodb": "^3.6.2"
   }
 }
